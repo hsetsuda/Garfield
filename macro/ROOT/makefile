@@ -1,7 +1,8 @@
 # compile the macro which used c+11 library and compiler
 # and for gaus_random_number.cxx
-Target = MonteCarlo_poisson
-#Target = normal_distribution
+#Target = monte_poisson_true
+#Target = MonteCarlo_poisson
+Target = MonteCarlo_poissonV2
 
 ObjSuf = .o
 SrcSuf = .cxx
